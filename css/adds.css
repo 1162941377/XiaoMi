@@ -1,0 +1,60 @@
+.main .adds {
+  height: 170px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.adds .left {
+  width: 234px;
+  list-style: none;
+  padding: 0;
+}
+
+.left .ev {
+  width: 78px;
+  background-color: rgb(94, 87, 81);
+  height: 85px;
+  float: left;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.left .ev:last-child {
+  border: 0;
+}
+
+.left .ev:hover {
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.left .ev img:hover {
+  box-shadow: none;
+}
+
+.ev div {
+  font-size: 12px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.adds .right {
+  margin-left: 1px;
+  top: 0;
+  left: 244px;
+}
+
+.right img {
+  margin-left: 11px;
+}
+
+.right img:hover {
+  cursor: pointer;
+}
+
+.right img:hover {
+  box-shadow: -5px -5px 10px #aaa;
+}

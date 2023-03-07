@@ -1,0 +1,116 @@
+.main .search {
+  height: 100px;
+  position: relative;
+}
+
+.search img,
+.search .buttonGroup,
+.search .inp {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search .inp {
+  right: 0;
+}
+
+.search .buttonGroup {
+  left: 240px;
+}
+
+.buttonGroup .btn {
+  padding: 0;
+  padding-right: 15px;
+  color: #333;
+  height: 100px;
+}
+
+.buttonGroup .btn.active {
+  color: #ff6700;
+}
+
+.buttonGroup .btn:hover {
+  color: #ff6700;
+}
+
+.search .inp {
+  width: 296px;
+  display: flex;
+}
+
+.inp .searchText,
+.inp .searchContent {
+  height: 50px;
+}
+
+.inp .searchText {
+  font-size: 13px;
+  color: rgba(90, 90, 90, 0.8);
+}
+
+.main .showPng {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 140px;
+  z-index: 15;
+  width: 1470px;
+  height: 230px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px #aaa;
+  display: none;
+}
+
+.showPng .pngContainer {
+  width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  display: none;
+}
+
+.showPng .pngContainer.show {
+  display: flex;
+}
+
+.pngContainer .png {
+  text-align: center;
+  width: 200px;
+  border-right: 1px solid #ccc;
+  height: 105px;
+  color: #424242;
+}
+
+.pngContainer.show .png:hover .goods {
+  color: #f40;
+}
+
+.png img:hover,
+.png .goods:hover,
+.png .price:hover {
+  cursor: pointer;
+}
+
+.pngContainer .png:last-child {
+  border: 0;
+}
+
+.pngContainer .png:last-child {
+  margin-right: 0;
+}
+
+.png .goods,
+.png .price {
+  color: #333;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.png .price {
+  color: #ff6700;
+}
+
+.png .img {
+  width: 160px;
+  height: 110px;
+}

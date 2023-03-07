@@ -1,0 +1,75 @@
+.footer .footerContainer {
+  width: 1226px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContainer .info-text {
+  width: 1149px;
+  text-align: center;
+}
+
+.info-text p,
+.info-text div {
+  text-align: left;
+}
+
+.footerContainer img {
+  align-self: start;
+}
+
+.info-text p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.info-text p a {
+  color: #757575;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.info-text p span {
+  color: #ccc;
+}
+
+.info-text p:last-of-type,
+.info-text p:last-of-type a {
+  color: #b0b0b0;
+}
+
+.info-text p a:hover {
+  color: #ff6700;
+}
+
+.info-text div img {
+  margin-right: 5px;
+}
+
+.info-text div {
+  cursor: default;
+}
+
+.info-text div:last-of-type {
+  margin-top: 5px;
+}
+
+.info-text div img:hover {
+  cursor: pointer;
+}
+
+.info-text img.last {
+  margin-top: 30px;
+}
+
+.info-text div .img1,
+.info-text div .img2 {
+  display: none;
+}
+
+.info-text div img.imgShow {
+  display: inline-block;
+}

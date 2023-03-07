@@ -1,0 +1,213 @@
+.mainContainer .pageContainer .center {
+  box-shadow: 0 1px 9px #aaa;
+  position: relative;
+  z-index: 10;
+  width: 1226px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.mainContainer .pageContainer .center:hover {
+  cursor: pointer;
+}
+
+.pageContainer .page {
+  width: 1226px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.pageContainer .title {
+  font-size: 22px;
+  font-weight: 300;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title .more {
+  font-size: 16px;
+  cursor: default;
+}
+
+.title .more.one span:first-child {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.title .more.one:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.title .more span:hover {
+  cursor: pointer;
+}
+
+.title .more span.show {
+  color: #ff6700;
+  border-bottom: 2px solid #ff6700;
+  padding-bottom: 5px;
+}
+
+.title .more span:first-child {
+  margin-right: 25px;
+}
+
+.page .phoneContainer {
+  margin-top: 15px;
+  height: 614px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneContainer .left {
+  width: 234px;
+}
+
+.pageContainer .left:hover,
+.pageContainer .right .p:hover {
+  cursor: pointer;
+}
+
+.pageContainer img {
+  background-color: #fff;
+}
+
+.left img:hover {
+  box-shadow: 0 2px 8px #aaa;
+}
+
+.phoneContainer .right {
+  width: 992px;
+  padding-left: 20px;
+}
+
+.phoneContainer.toggle .right {
+  display: none;
+}
+
+.phoneContainer.toggle .right.active {
+  display: block;
+}
+
+.phoneContainer .right img:hover {
+  box-shadow: none;
+}
+
+.right .p {
+  float: left;
+  width: 234px;
+  height: 300px;
+  text-align: center;
+  background-color: #fff;
+  margin-right: 12px;
+}
+
+.right .p:last-child,
+.right .p:nth-of-type(4) {
+  margin: 0;
+}
+
+.right .p:nth-of-type(5),
+.right .p:nth-of-type(6),
+.right .p:nth-of-type(7),
+.right .p:nth-of-type(8) {
+  margin-top: 14px;
+}
+
+.right .p {
+  font-size: 14px;
+  color: #333;
+  padding-top: 20px;
+}
+
+.right .p:hover {
+  box-shadow: 0 2px 8px #aaa;
+}
+
+.p .name {
+  margin-top: 20px;
+}
+
+.p .ins {
+  font-size: 12px;
+  color: #ccc;
+  width: 214px;
+  height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.p .price {
+  margin-top: 10px;
+  color: #ff6700;
+  font-size: 13px;
+}
+
+.p .price .discount {
+  margin-left: 5px;
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.p.last {
+  padding: 0;
+}
+
+.p.last:hover {
+  box-shadow: none;
+}
+
+.p.last .d-flex:hover {
+  box-shadow: 0 2px 8px #aaa;
+}
+
+.p.last .d-flex {
+  height: 143px;
+  position: relative;
+}
+
+.p.last .d-flex .name {
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 94px;
+  text-align: left;
+}
+
+.p.last .d-flex .name.ft {
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.p.last .d-flex img {
+  margin-top: 30px;
+}
+
+.p.last .d-flex .price {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.p.last .d-flex:last-child img {
+  margin-top: 30px;
+}
+
+.p.last .d-flex:last-child .price:last-child {
+  color: #757575;
+  font-size: 12px;
+  top: 70px;
+}
+
+.p.last .space {
+  height: 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.p.last.nomore {
+  height: 143px;
+}

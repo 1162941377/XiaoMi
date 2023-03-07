@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./search.css);
+@import url(./category.css);
+@import url(./adds.css);
+@import url(./main.css);
+@import url(./site.css);
+@import url(./footer.css);
+
+:root,
+body {
+  height: 3280.5px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.main {
+  width: 1226px;
+  margin: auto;
+}
